@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIT8924BA-22-33E-20.000000
+D Automotive AEC-Q100 Oscillator
+K
+F https://www.sitime.com/support/resource-library/datasheets/sit8924-datasheet
+$ENDCMP
+#
+#End Doc Library
