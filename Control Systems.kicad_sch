@@ -7397,7 +7397,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 161.29) (xy 139.7 172.72)
+			(xy 137.16 161.29) (xy 137.16 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7944,6 +7944,16 @@
 			(type default)
 		)
 		(uuid "87711b58-c9b1-4187-8eb7-5a5428a11a02")
+	)
+	(wire
+		(pts
+			(xy 254 199.39) (xy 267.97 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2fe477-ecae-41c3-9a04-77e20759cfa9")
 	)
 	(wire
 		(pts
@@ -8497,6 +8507,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 161.29) (xy 139.7 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2149985-5c2d-490f-ab4a-096a98f69b03")
+	)
+	(wire
+		(pts
 			(xy 363.22 40.64) (xy 367.03 40.64)
 		)
 		(stroke
@@ -8624,6 +8644,16 @@
 			(type default)
 		)
 		(uuid "f05db520-f02a-4792-b418-437794d6d63e")
+	)
+	(wire
+		(pts
+			(xy 137.16 172.72) (xy 139.7 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1086bba-0451-4028-9355-7ebcbf9c5363")
 	)
 	(wire
 		(pts
@@ -10025,6 +10055,16 @@
 		)
 		(uuid "9af4c857-a3d9-4846-bb9b-04f81a644d37")
 	)
+	(label "SPI2_CS"
+		(at 256.54 199.39 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "a46955b7-96b6-4bc9-99e5-d97b61c6d365")
+	)
 	(label "XTAL_IN"
 		(at 161.29 166.37 0)
 		(effects
@@ -10115,7 +10155,7 @@
 		)
 		(uuid "d35011cc-fa34-49c8-bcc7-e2c35d0c7752")
 	)
-	(label "SPI2_NSS"
+	(label "SPI2_CS_2"
 		(at 255.27 201.93 0)
 		(effects
 			(font
@@ -11063,7 +11103,7 @@
 	)
 	(symbol
 		(lib_id "NEO-M8N-0:NEO-M8N-0")
-		(at 369.57 154.94 0)
+		(at 332.74 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11072,7 +11112,7 @@
 		(fields_autoplaced yes)
 		(uuid "2859079a-14bb-4402-bd61-c5198a6728b0")
 		(property "Reference" "U4"
-			(at 369.57 127 0)
+			(at 332.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +11120,7 @@
 			)
 		)
 		(property "Value" "NEO-M8N-0"
-			(at 369.57 129.54 0)
+			(at 332.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11128,7 @@
 			)
 		)
 		(property "Footprint" "NEO-M8N-0:XCVR_NEO-M8N-0"
-			(at 369.57 154.94 0)
+			(at 332.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,7 +11138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 154.94 0)
+			(at 332.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 369.57 154.94 0)
+			(at 332.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11156,7 @@
 			)
 		)
 		(property "PARTREV" "R04"
-			(at 369.57 154.94 0)
+			(at 332.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,7 +11166,7 @@
 			)
 		)
 		(property "MF" "U-Blox America"
-			(at 369.57 154.94 0)
+			(at 332.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11176,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 369.57 154.94 0)
+			(at 332.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12059,7 +12099,7 @@
 	)
 	(symbol
 		(lib_id "MS561101BA03-50:MS561101BA03-50")
-		(at 308.61 100.33 0)
+		(at 287.02 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12068,7 +12108,7 @@
 		(fields_autoplaced yes)
 		(uuid "512b88a9-38bf-4cd1-b84b-ffc6e5261b83")
 		(property "Reference" "A1"
-			(at 308.61 85.09 0)
+			(at 287.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +12116,7 @@
 			)
 		)
 		(property "Value" "MS561101BA03-50"
-			(at 308.61 87.63 0)
+			(at 287.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12124,7 @@
 			)
 		)
 		(property "Footprint" "MS561101BA03-50:XDCR_MS561101BA03-50"
-			(at 308.61 100.33 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,7 +12134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 100.33 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +12143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 100.33 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12112,7 +12152,7 @@
 			)
 		)
 		(property "PARTREV" "06/2017"
-			(at 308.61 100.33 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,7 +12162,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 308.61 100.33 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12172,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at 308.61 100.33 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,7 +12182,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 308.61 100.33 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
