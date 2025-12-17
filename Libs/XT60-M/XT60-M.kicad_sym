@@ -40,7 +40,7 @@
     (property "Description" "\n                        \n                            Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V\n                        \n" (id 13) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Availability" "Not in stock" (id 14) (at 0 0 0)
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MANUFACTURER" "AMASS" (id 15) (at 0 0 0)

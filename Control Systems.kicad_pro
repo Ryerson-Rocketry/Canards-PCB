@@ -226,7 +226,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1155700|1536700|77952ea4-0d7e-4b07-b45c-0f10187881d3|90aa5bdc-d3be-4468-a885-1845463fb04b|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f",
+        "Datasheet says to connect to ground if not needed"
+      ],
+      [
+        "pin_to_pin|2235200|863600|90aa5bdc-d3be-4468-a885-1845463fb04b|6f8cb01b-34bd-43d3-9555-3003abe99638|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f",
+        "Datasheet says to connect to ground if not used"
+      ],
+      [
+        "pin_to_pin|3594100|863600|b615ddbf-bd96-4fcf-b7a2-5986ae2d1928|98efd21b-f89a-456f-82ca-8c5a0d978b19|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f",
+        "Seems that this is just an issue with the ERC "
+      ],
+      [
+        "pin_to_pin|3632200|406400|1c905b71-67ef-49cf-b582-6e5dd1ee0651|7fe4ef3e-c2d4-4ab5-8034-a2ae523be927|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f",
+        "Same as before, MCU will treat as input in real life"
+      ],
+      [
+        "power_pin_not_driven|939800|1079500|6f4a5983-7773-4eea-b06f-63491abf2010|00000000-0000-0000-0000-000000000000|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|",
+        "Correct wiring in data sheet"
+      ],
+      [
+        "power_pin_not_driven|939800|1104900|6bba214b-0565-4eee-9bad-1dfcc5059eb8|00000000-0000-0000-0000-000000000000|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|/d5fe7ca1-eb54-4123-991d-aa1fbe57810f|",
+        "Correct wiring based on data sheet"
+      ]
+    ],
     "meta": {
       "version": 0
     },
