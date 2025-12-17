@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SIT8924BA_22_33E_20.000000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SiTime", "SIT8924BA-22-33E-20.000000" (!) = "", "QFN_3225_4pins", "Other", "", "", "", "", "Automotive AEC-Q100 Oscillator", "https://www.sitime.com/support/resource-library/datasheets/sit8924-datasheet", "0.8 mm"
+END_PART
+
+END.

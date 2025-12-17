@@ -1,0 +1,18 @@
+.SIT8924BA-22-33E-20.000000 :1 ;Automotive AEC-Q100 Oscillator
+QFN_3225_4pins
+*STM Y
+*NGS
+*PLB 1="OE/'ST'/NC" 2="GND" 3="OUT" 4="VDD"
+*MXP 4
+*DFN SIT8924BA-22-33E-20.000000
+~!Manufacturer_Name (SiTime)
+~!Manufacturer_Part_Number (SIT8924BA-22-33E-20.000000)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.sitime.com/support/resource-library/datasheets/sit8924-datasheet)
+~!Height (0.8mm)
+~!3D_Model (SIT8924BA-22-33E-20.000000)
+SIT8924BA-22-33E-20.000000
+1.1!U 2.1!U 4.1!U 3.1!U 

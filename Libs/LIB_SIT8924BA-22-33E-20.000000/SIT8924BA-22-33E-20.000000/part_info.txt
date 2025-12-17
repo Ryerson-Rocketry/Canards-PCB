@@ -1,0 +1,9 @@
+Manufacturer=SiTime
+PartNumber=SIT8924BA-22-33E-20.000000
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2023-03-31 13:43:37
+Downloaded=2025-11-07 15:23:37
+3D=Y

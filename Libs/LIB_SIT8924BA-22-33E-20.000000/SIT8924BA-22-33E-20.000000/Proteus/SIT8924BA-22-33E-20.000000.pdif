@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SIT8924BA-22-33E-20.000000"
+   (description "Automotive AEC-Q100 Oscillator")
+   (family "OSC")
+   (package "QFN_3225_4pins")
+   (attribute "Datasheet Link" "https://www.sitime.com/support/resource-library/datasheets/sit8924-datasheet")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Manufacturer_Name" "SiTime")
+   (attribute "Manufacturer_Part_Number" "SIT8924BA-22-33E-20.000000")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SIT8924BA-22-33E-20.000000")
+    (pin "OE/$ST$/NC" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "OUT" 3 PS)
+    (pin "VDD" 4 PS)
+   )
+  )
+  (symbol "SIT8924BA-22-33E-20.000000"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "QFN_3225_4pins"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 1.25)
+      (pt 1.6 1.25)
+      (pt 1.6 -1.25)
+      (pt -1.6 -1.25)
+      (pt -1.6 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 2.55)
+      (pt 2.8 2.55)
+      (pt 2.8 -2.55)
+      (pt -2.8 -2.55)
+      (pt -2.8 2.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.1 -2)
+      (arc (pt -1.100 -2.000) (pt -1.200 -2.050) (pt -1.100 -1.950) (start 180.0) (sweep .0))
+      (pt -1.2 -2)
+      (arc (pt -1.200 -2.000) (pt -1.200 -2.050) (pt -1.100 -1.950) (start 180.0) (sweep 180.0))
+      (pt -1.1 -2))))
+   (leg 1 (pt -1.100 -0.950) (padstack 0))
+   (leg 2 (pt 1.100 -0.950) (padstack 0))
+   (leg 3 (pt 1.100 0.950) (padstack 0))
+   (leg 4 (pt -1.100 0.950) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.200 1.400 0 0 0.000))
+   )
+   (model "SIT8924BA-22-33E-20.000000.stp"
+    (euler 180 -90 0)
+    (offset 0 0 0.05000000074505806)
+   )
+  )
+ )
+)
