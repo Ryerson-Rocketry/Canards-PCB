@@ -6,22 +6,24 @@
 	(property "Reference" "REF**"
 		(at -0.226 -2.1868 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "61cd6374-b6c1-49de-8749-9d977ab555f0")
 		(effects
 			(font
 				(size 0.48 0.48)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
-	(property "Value" "PQFN50P300X300X100-16N"
-		(at 4.9556 2.1772 0)
+	(property "Value" "MMC5983MA"
+		(at 0 2.1772 0)
 		(layer "F.Fab")
 		(uuid "2dc7751c-24a6-413a-9254-a7000bcf5e4d")
 		(effects
 			(font
 				(size 0.48 0.48)
-				(thickness 0.15)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
@@ -33,7 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -45,7 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -345,4 +347,15 @@
 		(uuid "5b47bf33-0943-4b1d-842c-0dd8e6ffb9c7")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libs/MMC5983MA(1)/MMC5983MA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
